@@ -3,6 +3,7 @@
 @import 'owl.carousel/dist/assets/owl.carousel.min.css';
 @import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 @import '@eonasdan/tempus-dominus/dist/css/tempus-dominus.min.css';
+@import 'swiper/css/bundle';
 
 /********** Template CSS **********/
 :root {
@@ -157,6 +158,7 @@
 }
 
 
+
 /*** Header ***/
 .header-carousel .container,
 .page-header .container {
@@ -182,6 +184,15 @@
 .page-header .container::after {
     top: 100%;
     margin-top: -15px;
+}
+
+.owl-carousel {
+    display: flex !important ;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    position: relative;
+    z-index: 1; 
 }
 
 @media (max-width: 768px) {

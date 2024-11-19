@@ -21,16 +21,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -119,10 +110,53 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
+    <div class="container-fluid">
+        <div class="swiper">
+            <div class="swiper-wrapper position-relative">
+                <!-- Slides -->
+                <div class="swiper-slide position-relative">
+                    <img class="img-fluid w-100 h-50" src="{{ asset('images/hvac01.jpg') }}" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Plumbing & Repairing Services</h5>
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Residential Plumbing Services</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide position-relative">
+                <img class="img-fluid w-100 h-50 " src="{{ asset('images/hvac01.jpg') }}" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Plumbing & Repairing Services</h5>
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Commercial Plumbing Services</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!-- <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('images/hvac01.jpg') }}" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -138,7 +172,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('images/hvac01.jpg') }}" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -153,7 +187,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- Carousel End -->
 
@@ -272,17 +306,17 @@
 
 
     <!-- Service Start -->
-    <div class="container-fluid py-5 px-4 px-lg-0">
+    <div class="container-fluid my-5 py-5 px-0">
         <div class="row g-0">
-            <div class="col-lg-3 d-none d-lg-flex">
-                <!-- ni nama dia comment, kira web tak baca code ni
+            <!-- <div class="col-lg-3 d-none d-lg-flex">
+                ni nama dia comment, kira web tak baca code ni
                  <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
                     <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">15 Years Experience</h1>
-                </div> --> 
-            </div>
-            <div class="col-md-12 col-lg-9">
-                <div class="ms-lg-5 ps-lg-5">
-                    <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                </div> 
+            </div> -->
+            <div class="col-md-12">
+                <div class="ms-lg-12 ps-lg-12">
+                    <div class="text-center  wow fadeInUp " data-wow-delay="0.1s">
                         <h6 class="text-secondary text-uppercase">Our Services</h6>
                         <h1 class="mb-5">Explore Our Services</h1>
                     </div>
@@ -366,7 +400,7 @@
             <h1 class="text-white mb-4">Emergency Service</h1>
             <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
         </div> -->
-        <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
+        <div class="container position-relative wow fadeInUp my-5 py-5" data-wow-delay="0.1s" >
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="bg-light text-center p-5">
@@ -635,14 +669,7 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

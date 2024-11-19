@@ -4,11 +4,18 @@ import { TempusDominus } from '@eonasdan/tempus-dominus';
 import '@eonasdan/tempus-dominus/dist/css/tempus-dominus.min.css';
 import '@popperjs/core';
 import 'jquery.easing';
+import 'waypoints/lib/jquery.waypoints.js';
 import 'jquery.counterup';
+import Swiper from 'swiper/bundle';
+
+import 'swiper/css/bundle';
 
 
 (function ($) {
     "use strict";
+
+    //swiper
+
 
     // Spinner
     var spinner = function () {
@@ -21,8 +28,6 @@ import 'jquery.counterup';
     spinner();
     
     
-    // Initiate the wowjs
-    new WOW().init();
 
 
     // Sticky Navbar
@@ -109,6 +114,9 @@ import 'jquery.counterup';
             $("#video").attr('src', $videoSrc);
         })
 
+        // Initiate the wowjs
+        new WOW().init();
+
         // const element = document.getElementById('datetimepicker');
         // new TempusDominus(element, {
         //     display: {
@@ -125,6 +133,24 @@ import 'jquery.counterup';
         //         },
         //     },
         // });
+
+        const swiper = new Swiper('.swiper', {
+            loop: true, // Enable infinite loop
+            slidesPerView: 1, // Show one slide at a time
+            spaceBetween: 10, // Space between slides
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true, // Make pagination dots clickable
+            },
+            navigation: {
+              nextEl: '.swiper-button-next', // Selector for the "next" button
+              prevEl: '.swiper-button-prev', // Selector for the "prev" button
+            },
+            autoplay: {
+              delay: 3000, // Auto-slide every 3 seconds
+              disableOnInteraction: false, // Continue autoplay after user interaction
+            },
+          });
     });
 
 
