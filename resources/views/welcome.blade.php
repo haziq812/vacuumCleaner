@@ -68,7 +68,7 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://wa.me/601111499007?text=Hi%2C%20I%27m%20interested%20in%20your%20services%20and%20would%20like%20to%20know%20more."><i class="fab fa-whatsapp"></i></a>
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
                 </div>
@@ -103,7 +103,7 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                <!-- <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
                         <i class="fa fa-phone-alt text-primary"></i>
                     </div>
@@ -111,7 +111,7 @@
                         <p class="mb-1 text-white">Emergency 24/7</p>
                         <h5 class="m-0 text-light"> +6017 894 5290 </h5>
                     </div>
-                </div>
+                </div> -->
             </div>
         </nav>
     </div>
@@ -231,7 +231,7 @@
                 </div>
                 <div class="col-lg-6 pt-4" style="min-height: 500px;">
                     <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <img class= "fieto position-absolute img-fluid w-100 h-100" src="{{ asset('images/hvac01.jpg') }}" alt="">
                         <!-- <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt=""> -->
                     </div>
                 </div>
@@ -341,7 +341,7 @@
 
     <!-- Booking Start -->
     <div class="container-fluid my-5 px-0">
-        <div class="video wow fadeInUp" data-wow-delay="0.1s">
+        <!-- <div class="video wow fadeInUp" data-wow-delay="0.1s">
             <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                 <span></span>
             </button>
@@ -354,7 +354,6 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <!-- 16:9 aspect ratio -->
                             <div class="ratio ratio-16x9">
                                 <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
                                     allow="autoplay"></iframe>
@@ -366,12 +365,12 @@
 
             <h1 class="text-white mb-4">Emergency Service</h1>
             <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
-        </div>
+        </div> -->
         <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="bg-light text-center p-5">
-                        <h1 class="mb-4">Book For A Service</h1>
+                        <h1 class="mb-4">Contact Us</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
@@ -380,26 +379,26 @@
                                 <div class="col-12 col-sm-6">
                                     <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <!-- <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
                                         <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                        <option value="1">Mechanical and Civil</option>
+                                        <option value="2">Electrical and Electronics</option>
+                                        <option value="3">Information and Technology</option>
                                     </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
+                                </div> -->
+                                <!-- <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
                                             placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-12">
                                     <textarea class="form-control border-0" placeholder="Special Request"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                    <a class="btn btn-primary w-100 py-3" href="https://wa.me/601111499007?text=Hi%2C%20I%27m%20interested%20in%20your%20services%20and%20would%20like%20to%20know%20more.">Book Now</a>
                                 </div>
                             </div>
                         </form>
@@ -422,7 +421,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('images/AZMAN.png') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
@@ -458,7 +457,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('images/ABGNAWI.jpg') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
@@ -476,7 +475,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('images/ABGNAWI.jpg') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
@@ -500,10 +499,10 @@
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="text-center">
+            <!-- <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>
                 <h1 class="mb-5">Our Clients Say!</h1>
-            </div>
+            </div> -->
             <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">

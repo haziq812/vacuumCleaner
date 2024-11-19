@@ -591,3 +591,8 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+.fieto {
+    object-fit: cover !important; 
+    padding: 0 0 50px 100px;
+}
