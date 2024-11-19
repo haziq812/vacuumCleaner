@@ -596,3 +596,7 @@
     object-fit: cover !important; 
     padding: 0 0 50px 100px;
 }
+
+.image-container {
+    height: 80%;
+}

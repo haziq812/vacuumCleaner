@@ -165,7 +165,7 @@
             <!-- First Image -->
             <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
                 <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('images/hvac01.jpg') }}" alt="">
+                    <img class="img-fluid h-100" src="{{ asset('images/hvac01.jpg') }}" alt="">
                 </div>
                 <div class="d-flex align-items-center justify-content-between bg-light p-4">
                     <h5 class="text-truncate me-3 mb-0"> HVAC </h5>
@@ -175,7 +175,7 @@
             <!-- Second Image -->
             <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
                 <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('images/vac01.jpg') }}" alt="">
+                    <img class="img-fluid h-100" src="{{ asset('images/vac01.jpg') }}" alt="">
                 </div>
                 <div class="d-flex align-items-center justify-content-between bg-light p-4">
                     <h5 class="text-truncate me-3 mb-0"> Industrial Vacuum </h5>
@@ -185,7 +185,7 @@
             <!-- Third Image -->
             <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
                 <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('images/crane01.jpg') }}" alt="">
+                    <img class="img-fluid h-100" src="{{ asset('images/crane01.jpg') }}" alt="">
                 </div>
                 <div class="d-flex align-items-center justify-content-between bg-light p-4">
                     <h5 class="text-truncate me-3 mb-0"> Underhung Crane </h5>
