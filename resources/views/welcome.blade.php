@@ -112,9 +112,9 @@
     <!-- Carousel Start -->
     <div class="container-fluid">
         <div class="swiper">
-            <div class="swiper-wrapper position-relative">
+            <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide position-relative">
+                <div class="swiper-slide">
                     <img class="img-fluid w-100 h-50" src="{{ asset('images/hvac01.jpg') }}" alt="">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                         <div class="container">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide position-relative">
-                <img class="img-fluid w-100 h-50 " src="{{ asset('images/hvac01.jpg') }}" alt="">
+                <img class="img-fluid w-100 h-50 " src="{{ asset('images/SAMPLE1.jpg') }}" alt="">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -321,16 +321,9 @@
                         <h1 class="mb-5">Explore Our Services</h1>
                     </div>
                     <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-water fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Drain Repair</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Quality Service</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Customer Satisfaction</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Support 24/7</p>
-                            <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        <div class="bg-light p-4 mb-3" src="{{ asset('images/ABGNAWI.jpg') }}">
+                        
+                            <p> UNDERHUNG Crane</p>
                         </div>
                         <div class="bg-light p-4">
                             <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
@@ -473,11 +466,11 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('images/ABGNAWI.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/SAMPLE1.jpg') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Abg Nawi </h5>
+                                <h5 class="fw-bold mb-0"> Baihaqi</h5>
                                 <small> Technical Director </small>
                             </div>
                             <div class="bg-primary">
@@ -491,7 +484,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('images/ABGNAWI.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/SAMPLE1.jpg') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
@@ -509,7 +502,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('images/ABGNAWI.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/SAMPLE1.jpg') }}" alt="">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
@@ -540,9 +533,39 @@
             <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-0"> service yang sangat bagus!Mantap</p>
                     </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="{{ asset('images/ZAID.jpg') }}" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Zaid</h5>
+                    <p class="m-0">Usahawan</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">QUALITY WORTH THE PRICE overall 10/10!</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="{{ asset('images/ZAID.jpg') }}" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Syafiq</h5>
+                    <p class="m-0">Usahawan Muda</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">VACUUM NI LAA YANG SAYA CARI!! QUALITI TERBAIK! FUCTION TERBAIK</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="{{ asset('images/ZAID.jpg') }}" style="width: 80px; height: 80px;">
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
                         <small class="fa fa-star text-secondary"></small>
@@ -555,39 +578,9 @@
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-0">TERBAIK BOSSKUR SERVICE TIPTOP!!.</p>
                     </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="{{ asset('images/ZAID.jpg') }}" style="width: 80px; height: 80px;">
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
                         <small class="fa fa-star text-secondary"></small>
